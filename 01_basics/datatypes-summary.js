@@ -33,3 +33,24 @@ const muFunction = function(){
 }
 
 console.log(typeof outsideTemp); 
+
+// ****************************************************************
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+let myYoutubename = "Reetikdotcom"
+
+let anotherName = myYoutubename 
+anotherName = "Reetik"
+
+let userOne = {
+    email : "reetik@gmail.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "reetik2@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
